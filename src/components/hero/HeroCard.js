@@ -11,7 +11,7 @@ export const HeroCard = ({
 }) => {
 
     //const imagePath = `./assets/${id}.jpg`;
-    const imagePath = `../../assets/${id}.jpg`;
+    const imagePath = `https://luisguillermo2017.github.io/react-marver-dc/assets/${id}.jpg`;
 
     return (
         <div className="col animate__animated animate__fadeIn">

@@ -30,7 +30,8 @@ export const HeroScreen = () => {
         characters
     } = hero;
 
-    const imagePath = `../../assets/${ id }.jpg`;
+    //const imagePath = `/assets/${ id }.jpg`;
+    const imagePath = `https://luisguillermo2017.github.io/react-marver-dc/assets/${id}.jpg`;
 
     return (
         <div className="row mt-5">
